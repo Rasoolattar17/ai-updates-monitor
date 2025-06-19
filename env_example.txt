@@ -1,0 +1,26 @@
+# AI Monitor Configuration
+# Copy this file to .env and update with your settings
+
+# Email Notifications (optional)
+EMAIL_ENABLED=true
+EMAIL_SMTP_SERVER=smtp.zoho.com
+EMAIL_SMTP_PORT=465
+EMAIL_USERNAME=noreply@succeedlearn.com
+EMAIL_PASSWORD=your_app_password_here
+EMAIL_TO=rasool@succeedtech.com
+
+# Desktop Notifications
+DESKTOP_NOTIFICATIONS=true
+
+# Monitoring Intervals (in minutes)
+RSS_CHECK_INTERVAL=30
+GITHUB_CHECK_INTERVAL=60
+NEWS_CHECK_INTERVAL=45
+
+# X (Twitter) API Configuration (Optional - for direct tweet access)
+# Get these from https://developer.twitter.com/en/portal/dashboard
+X_BEARER_TOKEN=your_x_bearer_token_here
+# Note: Free tier allows 500,000 tweets per month, which is plenty for daily monitoring
+
+# Database (optional - uses SQLite by default)
+DATABASE_PATH=ai_monitoring.db 
