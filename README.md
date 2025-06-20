@@ -255,12 +255,18 @@ This project is open source and available under the MIT License.
 
 ## 🔧 Setup Instructions
 
-### 1. Install Dependencies
+### 1. Clone Repository
+```bash
+git clone <your-github-repo-url>
+cd ai-updates-monitor
+```
+
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Configure Environment
+### 3. Configure Environment
 Copy and edit the environment configuration:
 ```bash
 copy env_example.txt .env
@@ -270,7 +276,9 @@ Edit `.env` with your settings:
 - **Email notifications**: Configure SMTP settings for email alerts
 - **X API (Optional)**: For direct tweet access instead of news-based monitoring
 
-### 3. X (Twitter) API Setup (Optional but Recommended)
+**⚠️ IMPORTANT**: Never commit your `.env` file to GitHub! It contains sensitive credentials.
+
+### 4. X (Twitter) API Setup (Optional but Recommended)
 For direct access to tweets (more reliable than news sources):
 
 1. **Create X Developer Account**:

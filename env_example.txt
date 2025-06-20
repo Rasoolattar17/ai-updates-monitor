@@ -5,9 +5,9 @@
 EMAIL_ENABLED=true
 EMAIL_SMTP_SERVER=smtp.zoho.com
 EMAIL_SMTP_PORT=465
-EMAIL_USERNAME=noreply@succeedlearn.com
-EMAIL_PASSWORD=your_app_password_here
-EMAIL_TO=rasool@succeedtech.com
+EMAIL_USERNAME=your-email@domain.com
+EMAIL_PASSWORD=your-app-password-here
+EMAIL_TO=recipient@domain.com
 
 # Desktop Notifications
 DESKTOP_NOTIFICATIONS=true
