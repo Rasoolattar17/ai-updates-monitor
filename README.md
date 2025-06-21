@@ -273,7 +273,7 @@ Edit `.env` with your settings:
 ### 3. X (Twitter) API Setup (Optional but Recommended)
 For direct access to tweets (more reliable than news sources):
 
-1. **Create X Developer Account**:
+<!-- 1. **Create X Developer Account**:
    - Go to [developer.twitter.com](https://developer.twitter.com)
    - Apply for developer access
    - Create a new app
@@ -287,4 +287,4 @@ For direct access to tweets (more reliable than news sources):
    - Free tier: 500,000 tweets/month (perfect for daily monitoring)
    - 100 requests per 15 minutes per endpoint
 
-**Without X API**: The system will still work using news sources and social media aggregators to find Twitter mentions and discussions. 
+**Without X API**: The system will still work using news sources and social media aggregators to find Twitter mentions and discussions.  -->
